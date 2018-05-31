@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyWuzzy.net", "FuzzyWuzzy.net\FuzzyWuzzy.net.csproj", "{B2C6EEA2-6E1B-4177-AC13-AE9DAD32136F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyWuzzy.Cmd", "FuzzyWuzzy.Cmd\FuzzyWuzzy.Cmd.csproj", "{CECCF42D-BEAE-41BD-A6B4-1B14904706F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyWuzzy.Tests", "FuzzyWuzzy.Tests\FuzzyWuzzy.Tests.csproj", "{318D7950-6E8E-41BB-9EA5-22B3028A2834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B2C6EEA2-6E1B-4177-AC13-AE9DAD32136F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C6EEA2-6E1B-4177-AC13-AE9DAD32136F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C6EEA2-6E1B-4177-AC13-AE9DAD32136F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECCF42D-BEAE-41BD-A6B4-1B14904706F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECCF42D-BEAE-41BD-A6B4-1B14904706F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECCF42D-BEAE-41BD-A6B4-1B14904706F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECCF42D-BEAE-41BD-A6B4-1B14904706F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318D7950-6E8E-41BB-9EA5-22B3028A2834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318D7950-6E8E-41BB-9EA5-22B3028A2834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318D7950-6E8E-41BB-9EA5-22B3028A2834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318D7950-6E8E-41BB-9EA5-22B3028A2834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
