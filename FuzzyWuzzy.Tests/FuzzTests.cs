@@ -10,11 +10,10 @@ namespace FuzzyWuzzy.Tests
     public class FuzzTests
     {
         [Test]
-        public void GetStringRatio()
+        public void GetStringDifferenceRatio()
         {
             var ratio = Fuzz.Ratio("energy", "synergy");
-            var result = Convert.ToInt32(Math.Round(ratio * 100));
-            Assert.That(result == 85);
+            Assert.That(ratio == 85);
         }
     }
 }

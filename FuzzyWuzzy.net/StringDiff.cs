@@ -4,9 +4,8 @@ namespace FuzzyWuzzy.net
 {
     public static class StringDiff
     {
-        public static int EditDistance(string text, string toCompareText)
+        public static int Distance(string text, string toCompareText)
         {
-
             var textLen = text.Length;
             var toCompareTextLen = toCompareText.Length;
 
