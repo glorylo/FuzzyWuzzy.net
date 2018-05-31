@@ -47,5 +47,12 @@ namespace FuzzyWuzzy.Tests
             var distance = StringDiff.EditDistance("car", "cars");
             Assert.That(distance == 1);
         }
+
+        [Test]
+        public void GetEditDistanceComplexCase()
+        {
+            var distance = StringDiff.EditDistance("cardudmum", "cardamom");
+            Assert.That(distance == 3);
+        }
     }
 }
