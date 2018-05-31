@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 using FuzzyWuzzy.net;
-using NUnit.Framework;
+using Xunit;
 
 namespace FuzzyWuzzy.Tests
 {
-    [TestFixture]
+
     public class FuzzTests
     {
-        [Test]
-        public void GetStringDifferenceRatio()
+        [Theory]
+        [InlineData("energy", "synergy", 85)]
+        public void GetStringDifferenceRatio(string text, string toCompareText, int expectedDistance)
         {
-            var ratio = Fuzz.Ratio("energy", "synergy");
-            Assert.That(ratio == 85);
+            var ratio = Fuzz.Ratio(text, toCompareText);
+            Assert.True(ratio == expectedDistance);
+
         }
     }
 }
